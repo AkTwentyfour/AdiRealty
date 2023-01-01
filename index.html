@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Adi Realty</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="background-navbar"></div>
+    <div class="container-md navigation-bar">
+        <div class="brand-location-sosmed fixed d-flex justify-content-between align-items-center">
+            <div class="brand fs-2 fw-bold d-flex" style="cursor: pointer;">
+                <img src="/aset/logo-adi.png" height="60">
+                <div>
+                    <div class="fs-4 fw-bold ms-2 nama-brand">
+                        PT. ADI REALTY
+                    </div>
+                    <div class="deskripsi-brand-1 fw-bold ms-2">
+                        Akademi Developer Indonesia
+                    </div>
+                    <div class="deskripsi-brand-2 fw-bold ms-2">
+                        Mitra Pengembang
+                    </div>
+                </div>
+            </div>
+            <div class="location-sosmed-navbar">
+                <div class="location-sosmed d-flex justify-content-end mt-2">
+                    <div class="location-wrapper d-flex justify-content-end me-4 mt-1" style="cursor: pointer;">
+                        <div class="d-flex justify-content-center ps-5" style="width: 50%;">
+                            <img src="/aset/location.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 250px;">
+                                Komplek
+                                Ruko Perdagangan
+                                Slawi, Jl.Letjend Suprapto</marquee>
+                        </div>
+                        <div class="d-flex justify-content-center ps-5 location" style="width: 40%;">
+                            <img src="/aset/phone-call.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 230px;">
+                                Hotline :
+                                0813 9359 9132
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="sosmed-wrapper d-flex justify-content-end" style="width: 20%;">
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://twitter.com/adi_realty" class="wrap">
+                                <img src="/aset/twitter.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.tiktok.com/@adirealty_?lang=en" class="wrap">
+                                <img src="/aset/tik-tok.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.facebook.com/profile.php?id=100088679617447" class="wrap">
+                                <img src="/aset/facebook.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.instagram.com/adirealty__/?hl=id" class="wrap">
+                                <img src="/aset/instagram.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="wrap">
+                                <img src="/aset/youtube.png" height="18">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg pb-0 stikcy-top navbar-light mt-2">
+                    <div class="container-fluid px-0">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" style="z-index: 10;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto px-0 mb-2 mb-lg-0 ms-auto">
+                                <li class="nav-item change-mt">
+                                    <a class="nav-link nav-active fw-bold ms-3" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/profil/profil.html">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/divisi/divisi.html">Division</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/mou/mou.html">MOU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/kontak/kontak.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/aset/remake-carousel.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">AKADEMI DEVELOPER<br> INDONESIA</div>
+                    <div class="second-text-carousel mt-3">Kami adalah sebuah lembaga <br>Mitra Pengembang</div>
+                    <button class="btn text-light button-carousel mt-3"><a href="index.html#profile-card"
+                            style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel2.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">COACH PEMBIMBING<br>PROFESIONAL</div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-1">Kami hadir khusus untuk membimbing anda
+                        untuk <br> menjadi
+                        developer handal
+                    </div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-2">Kami hadir khusus untuk <br> membimbing
+                        anda untuk <br> menjadi
+                        developer handal
+                    </div>
+                    <button class="btn text-light button-carousel mt-3"><a href="index.html#profile-card"
+                            style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel3.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">BERAGAM MITRA YANG<br>TERSEDIA</div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-1">Kami memiliki beragam mitra pengembang yang
+                        tesebar <br> di
+                        daerah Tegal dan Sekitarnya
+                    </div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-2">Kami memiliki beragam mitra <br> pengembang
+                        yang tesebar <br> di
+                        daerah Tegal dan Sekitarnya
+                    </div>
+                    <button class="btn text-light button-carousel mt-3"><a href="index.html#profile-card"
+                            style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon left-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon right-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- content 1 -->
+    <div class="container mt-5" id="profile-card">
+        <div class="row gy-2">
+            <div class="col-xl-4 col-sm-12 col-md-4">
+                <div class="card border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="icon me-3">
+                            <img src="/aset/encrypted.png" width="35">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Visi & Misi <span style="color: #30c2fd;">Perusahaan</span></h6>
+                            <p class="smaller-text">Kami hadir guna menciptakan atmosfir kemanfaatan yang saling
+                                menguntungkan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-12 col-md-4">
+                <div class="card border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="icon me-3">
+                            <img src="/aset/cashless-payment.png" width="35">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Alamat <span style="color: #30c2fd;">Kantor</span></h6>
+                            <p class="smaller-text">Komplek Ruko Perdagangan Slawi, Jl.Letjend Suprapto</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-12 col-md-4">
+                <div class="card border-0">
+                    <div class="card-body d-flex align-items-start">
+                        <div class="icon me-3">
+                            <img src="/aset/verified.png" width="35">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Kontak &<span style="color: #30c2fd;"> Sosmed</span></h6>
+                            <p class="smaller-text">
+                                Hotline : 0813 9359 9132 <br>
+                                Instagram : Adi_Realty <br>
+                                Facebook : Adi Realty <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- content 2 -->
+    <div class="container mt-5" id="divisi">
+        <div class="row gy-5" id="collapseParent">
+            <div class="col-sm-12 col-lg-6">
+                <div class="row gy-2">
+                    <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/workshop.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Workshop Developer
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/contractor.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Kontraktor
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/management.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Proses Perbankan
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/acquisition.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Pembebasan Lahan
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/cardinal.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Survey dan Pemetaan Lahan
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false"
+                        aria-controls="collapseExample" style="text-decoration: none; color: rgb(1, 1, 37);">
+                        <div class="card border-0 card-content-2">
+                            <div class="card-body d-flex justify-content-start align-items-center">
+                                <img src="/aset/bridge.png" height="35">
+                                <div class="fw-bold fs-6 ms-2">
+                                    Divisi Bridging
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div id="accordionFlushExample">
+                        <div class="btn-group dropdown col-12">
+                            <div
+                                class="btn text-start fw-bold d-flex justify-content-start align-items-center pemasaran">
+                                <img src="/aset/property.png" height="35">
+                                <div class="ms-2">Divisi Pemasaran Property</div>
+                            </div>
+                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                                style="background-color: #fff; padding: 15px;">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle none2" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                        aria-expanded="false">
+                                        Perumahan
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li class="pt-0">
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#perumahan1" aria-expanded="false" aria-controls="perumahan1">
+                                                Manaran Residence Jatibarang Brebes
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#perumahan2" aria-expanded="false" aria-controls="perumahan2">
+                                                Zafira Permai Kali.... Brebes
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#perumahan3" aria-expanded="false" aria-controls="perumahan3">
+                                                Lembah sakinah Bumiayu
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#perumahan4" aria-expanded="false" aria-controls="perumahan4">
+                                                Grand Satya Bumiayu
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle none2" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                        aria-expanded="false">
+                                        Ruko
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#ruko1" aria-expanded="false" aria-controls="ruko1">
+                                                Ruko Dirky Makmur
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#ruko2" aria-expanded="false" aria-controls="ruko2">
+                                                Ruko Dukuh Salam
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle none2" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                        aria-expanded="false">
+                                        Kios
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="collapsed dropdown-item none2" data-bs-toggle="collapse"
+                                                href="#kios1" aria-expanded="false" aria-controls="kios1">
+                                                Kios Perhutani
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- collapsed -->
+            <div class="col-sm-12 col-lg-6">
+                <div class="collapse show" id="collapseExample1" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <video src="/aset/divisi-workshop-developer.mp4" type="mp4" autoplay muted class="img-fluid"
+                                style="border-radius: 3px;"></video>
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;">Workshop Developer</span>
+                            </div>
+                            <div class="smaller-text">
+                                Merencanakan dan mengawasi semua aspek dari hari ke hari menjalankan bengkel atau area
+                                bengkel yang dialokasikan, memberikan instruksi dan pengawasan tentang konstruksi yang
+                                diperlukan dan untuk memastikan bahwa operasi kerja dilakukan dalam dengan cara yang
+                                aman dan selamat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi workshop developer -->
+                <div class="collapse" id="collapseExample2" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/header.png" class="img-fluid" style="border-radius: 3px;">
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;"> Workshop Developer</span>
+                            </div>
+                            <div class="smaller-text">
+                                Merencanakan dan mengawasi semua aspek dari hari ke hari menjalankan bengkel atau area
+                                bengkel yang dialokasikan, memberikan instruksi dan pengawasan tentang konstruksi yang
+                                diperlukan dan untuk memastikan bahwa operasi kerja dilakukan dalam dengan cara yang
+                                aman dan selamat
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi kontraktor -->
+                <div class="collapse" id="collapseExample3" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/divisi kontraktor.jpeg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;"> Kontraktor</span></div>
+                            <div class="smaller-text">
+                                mengawasi semua aspek proyek konstruksi dari awal hingga selesai. Tugas utama mereka
+                                termasuk mempekerjakan dan melatih Subkontraktor, mengajukan izin dan izin bangunan yang
+                                diperlukan dan memberikan pengawasan dan bimbingan langsung kepada pekerja di lokasi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi proses perbankan -->
+                <div class="collapse" id="collapseExample4" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/divisi-proses-perbankan.jpeg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;">Proses Perbankan</span></div>
+                            <div class="smaller-text">
+                                Memproses deposit, pembayaran, dan penarikan. Mengotorisasi dan mengevaluasi cerukan dan
+                                pinjaman. Menangani transaksi lain, seperti menulis cek kasir atau wesel, bila perlu.
+                                Merekomendasikan dan menjelaskan layanan dan produk perbankan kepada nasabah berdasarkan
+                                kebutuhannya
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi pembebasan lahan -->
+                <div class="collapse" id="collapseExample5" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/divisi-pembebasan-lahan.jpeg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;">Pembebasan Lahan</span></div>
+                            <div class="smaller-text">
+                                Membantu pengembang/pemilik merancang dan membangun proyek dengan menyediakan opsi dan
+                                sewa lahan yang berdekatan. Mereka melakukan perjalanan ke area proyek untuk meneliti
+                                bangunan daerah dan informasi pemilik tanah
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi survey dan pemetaan lahan -->
+                <div class="collapse" id="collapseExample6" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <video src="/aset/divisi-pemetaan.mp4" type="mp4" autoplay muted class="img-fluid"
+                                style="border-radius: 3px;"></video>
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;"> Survey dan Pemetaan
+                                    Lahan</span></div>
+                            <div class="smaller-text">
+                                Melakukan pengukuran dan mengumpulkan dan menginterpretasikan data tentang area tanah,
+                                termasuk informasi tentang batas, bangunan dan fitur alami dan buatan manusia.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi bridging -->
+                <div class="collapse" id="collapseExample7" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0" style="height: max-content;">
+                        <div class="card-body">
+                            <img src="/aset/divisi-bridging.jpeg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="mt-3 fw-bold">Divisi <span style="color: #30c2fd;">Bridging</span></div>
+                            <div class="smaller-text">
+                                Ini bertindak seperti jembatan untuk membantu Anda membiayai kesenjangan antara membeli
+                                properti baru dan menjual properti yang sudah ada
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- divisi pemasaran property -->
+
+                <!-- perumahan 1 -->
+                <div class="collapse" id="perumahan1" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/manaran 2.jpg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/manaran 3 (1).jpg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/manaran 4.jpg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Perumahan<span style="color: #30c2fd;"> Manaran Residence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- perumahan 2 -->
+                <div class="collapse" id="perumahan2" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/pic (3).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic.png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (2).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (1).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Perumahan<span style="color: #30c2fd;"> Zafira Permai</span></div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">kali... Brebes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- perumahan 3 -->
+                <div class="collapse" id="perumahan3" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/pic (3).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic.png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (2).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (1).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Perumahan<span style="color: #30c2fd;"> Lembah Sakinah</span>
+                            </div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">Bumiayu</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- perumahan 4 -->
+                <div class="collapse" id="perumahan4" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/grand-satya.jpg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Perumahan<span style="color: #30c2fd;"> Grand Satya</span></div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">Bumiayu</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ruko 1 -->
+                <div class="collapse" id="ruko1" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/pic (3).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic.png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (2).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (1).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Ruko<span style="color: #30c2fd;"> Dirly Makmur</span></div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">unknow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ruko 2 -->
+                <div class="collapse" id="ruko2" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/pic (3).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic.png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (2).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="col-6">
+                                <img src="/aset/pic (1).png" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Ruko<span style="color: #30c2fd;"> Dukuh Salam</span></div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">unknow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- kios 1 -->
+                <div class="collapse" id="kios1" data-bs-parent="#collapseParent">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body row gy-1">
+                            <div class="col-6">
+                                <img src="/aset/kios-perhutani.jpeg" class="img-fluid" style="border-radius: 3px;">
+                            </div>
+                            <div class="mt-3 fw-bold">Kios<span style="color: #30c2fd;"> Perhutani</span></div>
+                            <div class="fw-bold d-flex">
+                                <img src="/aset/location.png" height="20">
+                                <div class="ms-1">unknow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- content-3 -->
+    <div class="container mt-5" id="kontak">
+        <div class="row gy-5 d-flex justify-content-center align-items-center">
+            <div class="col-sm-12 col-lg-4">
+                <div class="row gy-2">
+                    <div class="wrap-card-home">
+                        <a href="">
+                            <div
+                                class="p-5 d-flex flex-column justify-content-center align-items-center card-home second-card-home">
+                                <div class="card-wrapper-home">
+                                    <div class="fs-5 fw-bold">Indonesia, Jawa Tengah, Kab.Tegal, kec.Slawi</div>
+                                    <div class="fs-sm-6 mt-2 smaller-text">Komplek Ruko Perdagangan
+                                        Slawi, Jl.Letjend Suprapto</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="row gy-2">
+                    <div class="col-12 wrap-card-home">
+                        <a href="https://www.instagram.com/adirealty__/?hl=id">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/instagram.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">adirealty__</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 wrap-card-home">
+                        <a href="https://twitter.com/adi_realty ">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/twitter.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">Adi Realty</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 wrap-card-home">
+                        <a href="https://www.facebook.com/profile.php?id=100088679617447">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/facebook.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">Ady Realty</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class="row gy-2">
+                    <div class="col-12 wrap-card-home">
+                        <a href="https://www.tiktok.com/@adirealty_?lang=en">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/tik-tok.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">adirealty_</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 wrap-card-home">
+                        <a href="mailto:adirealty22@gmail.com">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/gmail.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">adirealty22@gmail.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 wrap-card-home">
+                        <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ">
+                            <div class="card card-home border-0" style="padding: 8px;">
+                                <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <img src="/aset/youtube.png" height="35">
+                                        <div class="ms-2 fw-bold fs-sm-5 text-card">Adi Realty</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- content 4 -->
+    <div class="container mt-5">
+        <div class="row gy-4">
+            <div class="col-sm-6 col-xl-3">
+                <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="card-new-content-wrapper">
+                    <div class="card p-0 border-0 ">
+                        <div class="card-body">
+                            <div class="test">
+                                <img src="/aset/bg-sementara.jpg" class="img-fluid">
+                            </div>
+                            <div class="fw-bold mt-3">Konten <span style="color: #f50202;">Youtube</span> Terbaru</div>
+                            <div class="smaller-text" style="font-size:  14px;">Konten pertama di youtube adi realty,
+                                cek sekarang juga!</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="card-new-content-wrapper">
+                    <div class="card p-0 border-0 ">
+                        <div class="card-body">
+                            <div class="test">
+                                <img src="/aset/bg-sementara.jpg" class="img-fluid">
+                            </div>
+                            <div class="fw-bold mt-3">Konten <span style="color: #f50202;">Youtube</span> Terbaru</div>
+                            <div class="smaller-text" style="font-size:  14px;">Konten pertama di youtube adi realty,
+                                cek sekarang juga!</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="card-new-content-wrapper">
+                    <div class="card p-0 border-0 ">
+                        <div class="card-body">
+                            <div class="test">
+                                <img src="/aset/bg-sementara.jpg" class="img-fluid">
+                            </div>
+                            <div class="fw-bold mt-3">Konten <span style="color: #f50202;">Youtube</span> Terbaru</div>
+                            <div class="smaller-text" style="font-size:  14px;">Konten pertama di youtube adi realty,
+                                cek sekarang juga!</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-xl-3">
+                <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="card-new-content-wrapper">
+                    <div class="card p-0 border-0 ">
+                        <div class="card-body">
+                            <div class="test">
+                                <img src="/aset/bg-sementara.jpg" class="img-fluid">
+                            </div>
+                            <div class="fw-bold mt-3">Konten <span style="color: #f50202;">Youtube</span> Terbaru</div>
+                            <div class="smaller-text" style="font-size:  14px;">Konten pertama di youtube adi realty,
+                                cek sekarang juga!</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="" style="background-color: rgb(1, 1, 37); min-height: 50vh; margin-top: 150px;">
+        <div class="container pb-5 container-footer gx-0">
+            <div class="row gx-0">
+                <div class="col-xl-3 col-md-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Profil</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" aria-current="page" href="/profil/profil.html#visi">Visi Adi Realty</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#visi">Misi Adi Realty</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#organisasi">Organisasi</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#sejarah">Sejarah</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-md-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Divisi</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" aria-current="page" href="/divisi/divisi.html#divisi">Workshop
+                                Developer</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Pemasaran Property</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Kontraktor</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">MOU</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link active" aria-current="page" href="/mou/mou.html#mou">PT. Nafial Jaya
+                                Mandiri</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">PT. Amilis Propertindo</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">PT. Irgi Karya Amanah</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Kontak</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link active" aria-current="page"
+                                href="/kontak/kontak.html#sosmed">Instagram</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Facebook</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Twitter</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+                <div class="gmail">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/gmail-black.png" height="25">
+                    </div>
+                </div>
+                <div class="whatsapp ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/whatsapp-black.png" height="25">
+                    </div>
+                </div>
+                <div class="facebook ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/facebook-black.png" height="25">
+                    </div>
+                </div>
+                <div class="instagram ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/instagram-black.png" height="25">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center "
+            style="height: 60px; border-top: 2px solid #53589D;">
+            <div style="color: #53589D;">PT. Akademi Developer Indonesia ( ADI Realty )</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

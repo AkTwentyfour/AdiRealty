@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Test</title>
+</head>
+<style>
+    body {
+        font-family: poppins;
+        min-height: 100vh;
+        background-color: whitesmoke;
+    }
+
+    /* header ( pwmbungkus navbar dan sosmed ) */
+    .navigation-bar {
+        height: 15vh;
+        width: 100%;
+    }
+
+    .background-navbar::before,
+    .background-navbar::after {
+        position: absolute;
+        z-index: -5;
+    }
+
+    .background-navbar::before {
+        content: "";
+        height: 0px;
+        width: 35%;
+        border-bottom: solid 79px white;
+        border-right: solid 35px transparent;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .background-navbar::after {
+        content: "";
+        height: 0px;
+        width: 66%;
+        border-top: solid 45px white;
+        border-left: solid 20px transparent;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .deskripsi-brand {
+        font-size: 11px;
+    }
+
+
+
+
+    .sosmed {
+        background-color: whitesmoke;
+        height: 30px;
+        width: 30px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    /* navbar */
+    .navbar {
+        z-index: 10;
+    }
+
+    .nav-link {
+        color: rgb(1, 1, 37) !important;
+        transition: all .3s ease-in-out;
+    }
+
+    .nav-link:hover {
+        color: gray !important;
+    }
+
+    .nav-active {
+        font-weight: bold;
+        border-bottom: 3px solid #4ba1ea;
+        width: min-content;
+    }
+
+
+    /* carousel */
+    .carousel-inner {
+        height: 85vh;
+    }
+
+    .absolute-carousel-text {
+        position: absolute;
+        top: 150px;
+        left: 125px;
+    }
+
+    .first-text-carousel {
+        font-size: 40px;
+        color: white;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+
+    .second-text-carousel {
+        font-size: 15px;
+        color: white;
+    }
+
+    .button-carousel {
+        padding: 10px;
+        font-size: 13px;
+        background-color: #30c2fd;
+    }
+
+
+    @media (max-width: 768px) {
+
+        /* header responsive */
+        .background-navbar::before {
+            width: 45%;
+        }
+
+        .background-navbar::after {
+            width: 55%;
+        }
+
+        .logo img {
+            height: 30px;
+        }
+
+        .brand {
+            font-size: 15px;
+        }
+
+        .deskripsi-brand {
+            font-size: 10px;
+        }
+
+        .location-wrapper marquee,
+        .location-wrapper img {
+            display: none;
+        }
+
+        .location-sosmed-navbar {
+            width: 50%;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            height: 20px;
+            width: 20px;
+        }
+
+        /* carousel */
+        .carousel-inner {
+            height: 70vh;
+        }
+
+        .absolute-carousel-text {
+            position: absolute;
+            top: 120px;
+            left: 70px;
+        }
+
+        .first-text-carousel {
+            font-size: 25px;
+            letter-spacing: 5px;
+            line-height: 30px;
+        }
+
+        .second-text-carousel {
+            font-size: 15px;
+        }
+
+        .button-carousel {
+            padding: 5px;
+            font-size: 10px;
+        }
+
+        /* content 2 */
+        .width-30 {
+            width: 100%;
+        }
+
+    }
+
+    @media (max-width: 465px) {
+
+        .left-icon-carousel,
+        .right-icon-carousel {
+            top: 20%;
+        }
+    }
+
+    @media (max-width: 575px) {
+
+        /* header responsive */
+        .background-navbar::before {
+            width: 50%;
+        }
+
+        .background-navbar::after {
+            width: 49%;
+        }
+
+        .brand img {
+            height: 20px;
+        }
+
+        .nama-brand {
+            font-size: 15px !important;
+        }
+
+        .deskripsi-brand {
+            font-size: 10px;
+        }
+
+        .sosmed-wrapper img {
+            height: 15px;
+        }
+
+        .sosmed {
+            margin-left: 5px;
+            padding: 5px;
+        }
+
+        .navbar {
+            z-index: 10;
+            float: right;
+            clear: left;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            height: 15px;
+            width: 15px;
+        }
+
+        /* carousel */
+        .carousel-inner {
+            height: 50vh;
+        }
+
+        .absolute-carousel-text {
+            top: 80px;
+            left: 50px;
+        }
+
+        .first-text-carousel {
+            font-size: 15px;
+            letter-spacing: 2px;
+            line-height: 20px;
+        }
+
+        .second-text-carousel {
+            font-size: 10px;
+        }
+
+        .button-carousel {
+            padding: 5px;
+            font-size: 10px;
+        }
+
+
+    }
+</style>
+
+<body>
+    <!-- navigation bar -->
+    <div class="background-navbar"></div>
+    <div class="container-md navigation-bar">
+        <div class="brand-location-sosmed fixed d-flex justify-content-between align-items-center">
+            <div class="brand fixed-top fs-2 fw-bold d-flex" style="cursor: pointer;">
+                <img src="/aset/logo-adi.png" height="60">
+                <div>
+                    <div class="fs-4 fw-bold ms-2 nama-brand">
+                        PT. ADI REALTY
+                    </div>
+                    <div class="deskripsi-brand fw-bold ms-2">
+                        Akademi Developer Indonesia
+                    </div>
+                </div>
+            </div>
+            <div class="location-sosmed-navbar">
+                <div class="location-sosmed d-flex justify-content-end mt-2">
+                    <div class="location-wrapper d-flex justify-content-end me-4 mt-1" style="cursor: pointer;">
+                        <div class="d-flex justify-content-center ps-5" style="width: 50%;">
+                            <img src="/aset/location.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 250px;">
+                                Komplek
+                                Ruko Perdagangan
+                                Slawi, Jl.Letjend Suprapto</marquee>
+                        </div>
+                        <div class="d-flex justify-content-center ps-5 location" style="width: 40%;">
+                            <img src="/aset/phone-call.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 230px;">
+                                Hotline :
+                                0813 9359 9132
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="sosmed-wrapper d-flex justify-content-end" style="width: 20%;">
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://twitter.com/adi_realty" class="wrap">
+                                <img src="/aset/twitter.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.tiktok.com/@adirealty_?lang=en" class="wrap">
+                                <img src="/aset/tik-tok.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.facebook.com/profile.php?id=100088679617447" class="wrap">
+                                <img src="/aset/facebook.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.instagram.com/adirealty__/?hl=id" class="wrap">
+                                <img src="/aset/instagram.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="wrap">
+                                <img src="/aset/youtube.png" height="18">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg pb-0 stikcy-top navbar-light mt-2">
+                    <div class="container-fluid px-0">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" style="z-index: 10;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto px-0 mb-2 mb-lg-0 ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-active fw-bold ms-3" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/profil/profil.html">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/divisi/divisi.html">Division</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/mou/mou.html">MOU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/kontak/kontak.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/aset/remake-carousel.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">AKADEMI DEVELOPER<br> INDONESIA</div>
+                    <div class="second-text-carousel mt-3">Kami adalah sebuah lembaga <br>Mitra Pengembang</div>
+                    <button class="btn text-light button-carousel mt-3">SEE MORE ABOUT US</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel2.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">COACH PEMBIMBING<br>PROFESIONAL</div>
+                    <div class="second-text-carousel mt-3">Kami hadir khusus untuk membimbing anda <br> untuk menjadi
+                        developer handal</div>
+                    <button class="btn text-light button-carousel mt-3">SEE MORE ABOUT US</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel3.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">BEAGAM MITRA YANG<br>TERSEDIA</div>
+                    <div class="second-text-carousel mt-3">Kami memiliki beragam mitra pengembang yang tesebar <br> di
+                        daerah Tegal dan Sekitarnya</div>
+                    <button class="btn text-light button-carousel mt-3">SEE MORE ABOUT US</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon left-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon right-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

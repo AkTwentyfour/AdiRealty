@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="mou.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>MOU Page</title>
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="background-navbar"></div>
+    <div class="container-md navigation-bar">
+        <div class="brand-location-sosmed fixed d-flex justify-content-between align-items-center">
+            <div class="brand fs-2 fw-bold d-flex" style="cursor: pointer;">
+                <img src="/aset/logo-adi.png" height="60">
+                <div>
+                    <div class="fs-4 fw-bold ms-2 nama-brand">
+                        PT. ADI REALTY
+                    </div>
+                    <div class="deskripsi-brand-1 fw-bold ms-2">
+                        Akademi Developer Indonesia
+                    </div>
+                    <div class="deskripsi-brand-2 fw-bold ms-2">
+                        Mitra Pengembang
+                    </div>
+                </div>
+            </div>
+            <div class="location-sosmed-navbar">
+                <div class="location-sosmed d-flex justify-content-end mt-2">
+                    <div class="location-wrapper d-flex justify-content-end me-4 mt-1" style="cursor: pointer;">
+                        <div class="d-flex justify-content-center ps-5" style="width: 50%;">
+                            <img src="/aset/location.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 250px;">
+                                Komplek
+                                Ruko Perdagangan
+                                Slawi, Jl.Letjend Suprapto</marquee>
+                        </div>
+                        <div class="d-flex justify-content-center ps-5 location" style="width: 40%;">
+                            <img src="/aset/phone-call.png" height="20" class="d-md-none d-xl-block">
+                            <marquee class="ms-2 fw-bold d-md-none d-xl-block" style="font-size: 13px; width: 230px;">
+                                Hotline :
+                                0813 9359 9132
+                            </marquee>
+                        </div>
+                    </div>
+                    <div class="sosmed-wrapper d-flex justify-content-end" style="width: 20%;">
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://twitter.com/adi_realty" class="wrap">
+                                <img src="/aset/twitter.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.tiktok.com/@adirealty_?lang=en" class="wrap">
+                                <img src="/aset/tik-tok.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.facebook.com/profile.php?id=100088679617447" class="wrap">
+                                <img src="/aset/facebook.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.instagram.com/adirealty__/?hl=id" class="wrap">
+                                <img src="/aset/instagram.png" height="18">
+                            </a>
+                        </div>
+                        <div class="sosmed ms-sm-1">
+                            <a href="https://www.youtube.com/channel/UCpxYZgntu8IJbhDoLELj6VQ" class="wrap">
+                                <img src="/aset/youtube.png" height="18">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg pb-0 stikcy-top navbar-light mt-2">
+                    <div class="container-fluid px-0">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation" style="z-index: 10;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto px-0 mb-2 mb-lg-0 ms-auto">
+                                <li class="nav-item change-mt">
+                                    <a class="nav-link fw-bold ms-3" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/profil/profil.html">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/divisi/divisi.html">Division</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-active fw-bold ms-3" href="/mou/mou.html">MOU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold ms-3" href="/kontak/kontak.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">AKADEMI DEVELOPER<br> INDONESIA</div>
+                    <div class="second-text-carousel mt-3">Kami adalah sebuah lembaga <br>Mitra Pengembang</div>
+                    <button class="btn text-light button-carousel mt-3"><a href="mou.html#mou" style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/aset/remake-carousel2.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">COACH PEMBIMBING<br>PROFESIONAL</div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-1">Kami hadir khusus untuk membimbing anda untuk<br> menjadi
+                        developer handal
+                    </div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-2">Kami hadir khusus untuk <br> membimbing anda untuk<br> menjadi
+                        developer handal
+                    </div>
+                    <button class="btn text-light button-carousel mt-3"><a href="mou.html#mou" style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="/aset/remake-carousel3.png" class="d-block w-100">
+                <div class="absolute-carousel-text">
+                    <div class="first-text-carousel">HALAMAN MOU <br>ADI REALTY</div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-1">Kami memiliki beragam mitra pengembang yang tesebar <br> di
+                        daerah Tegal dan Sekitarnya
+                    </div>
+                    <div class="second-text-carousel mt-3 deskripsi-brand-2">Kami memiliki beragam mitra <br> pengembang yang tesebar <br> di
+                        daerah Tegal dan Sekitarnya
+                    </div>
+                    <button class="btn text-light button-carousel mt-3"><a href="mou.html#mou" style="color: white; text-decoration: none;">SEE MORE ABOUT US</a></button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon left-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon right-icon-carousel" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- content 1 -->
+    <div class="container mt-5" id="mou">
+        <div class="row gy-5" id="accordionFlushExample">
+            <div class="col-sm-12 col-lg-6">
+                <div class="row gy-1 change-width" style="width: min-content;">
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">PT. Nafial Jaya
+                            Mandiri</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#nafial1"
+                                    aria-expanded="false" aria-controls="nafial1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#nafial2"
+                                    aria-expanded="false" aria-controls="nafial2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#nafial3"
+                                    aria-expanded="false" aria-controls="nafial3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">PT. Dirly Makmur Putra
+                            Syukur</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#dirly1"
+                                    aria-expanded="false" aria-controls="dirly1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#dirly2"
+                                    aria-expanded="false" aria-controls="dirly2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#dirly3"
+                                    aria-expanded="false" aria-controls="dirly3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">PT. Irgi Karya Amanah</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#irgi1"
+                                    aria-expanded="false" aria-controls="irgi1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#irgi2"
+                                    aria-expanded="false" aria-controls="irgi2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#irgi3"
+                                    aria-expanded="false" aria-controls="irgi3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">PT. Amilis
+                            Propertyindo</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#amilis1"
+                                    aria-expanded="false" aria-controls="amilis1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#amilis2"
+                                    aria-expanded="false" aria-controls="amilis2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#amilis3"
+                                    aria-expanded="false" aria-controls="amilis3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">PT. Sofyan Jaya Prima</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#sofyan1"
+                                    aria-expanded="false" aria-controls="sofyan1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#sofyan2"
+                                    aria-expanded="false" aria-controls="sofyan2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#sofyan3"
+                                    aria-expanded="false" aria-controls="sofyan3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn text-start fw-bold"
+                            style="background-color: #fff; padding: 15px; width: 355px;">Perum Perhutani KPH Pekalongan
+                            Barat</button>
+                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split none1"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false"
+                            style="background-color: #fff; padding: 15px;">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#perhutani1"
+                                    aria-expanded="false" aria-controls="perhutani1">
+                                    dokumentasi 1
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#perhutani2"
+                                    aria-expanded="false" aria-controls="perhutani2">
+                                    dokumentasi 2
+                                </a>
+                            </li>
+                            <li>
+                                <a class="collapsed dropdown-item none2" data-bs-toggle="collapse" href="#perhutani3"
+                                    aria-expanded="false" aria-controls="perhutani3">
+                                    dokumentasi 3
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="collapse show" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <video src="/aset/divisi-workshop-developer.mp4" type="mp4" class="img-fluid" autoplay loop
+                                muted></video>
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PT. Nafial Jaya Mandiri -->
+                <div class="collapse" id="nafial1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="nafial2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="nafial3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PT. Dirly Makmur Putra Syukur -->
+                <div class="collapse" id="dirly1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="dirly2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="dirly3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" height="300" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PT Irgi Karya Amanah -->
+                <div class="collapse" id="irgi1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="irgi2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="irgi3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" height="300" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PT. Amilis Propertyindo -->
+                <div class="collapse" id="amilis1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="amilis2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="amilis3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" height="300" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PT. Sofyan Jaya Prima -->
+                <div class="collapse" id="sofyan1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="sofyan2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="sofyan3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" height="300" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Perum Perhutani KPH Pekalongan Barat -->
+                <div class="collapse" id="perhutani1" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 1.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="perhutani2" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 3.jpg" class="img-fluid" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse" id="perhutani3" data-bs-parent="#accordionFlushExample">
+                    <div class="card card-collapse border-0">
+                        <div class="card-body">
+                            <img src="/aset/manaran 4.jpg" class="img-fluid" height="300" style="border-radius: 3px;">
+                            <div class="fw-bold mt-3">Deskripsi</div>
+                            <div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi obcaecati
+                                numquam ipsam amet tempora, odit ipsum rem eaque expedita.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="" style="background-color: rgb(1, 1, 37); min-height: 50vh; margin-top: 150px;">
+        <div class="container pb-5 container-footer gx-0">
+            <div class="row gx-0">
+                <div class="col-xl-3 col-md-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Profil</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" aria-current="page" href="/profil/profil.html#visi">Visi Adi Realty</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#visi">Misi Adi Realty</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#organisasi">Organisasi</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/profil/profil.html#sejarah">Sejarah</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-md-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Divisi</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" aria-current="page" href="/divisi/divisi.html#divisi">Workshop
+                                Developer</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Pemasaran Property</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Kontraktor</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/divisi/divisi.html#divisi">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">MOU</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link active" aria-current="page" href="/mou/mou.html#mou">PT. Nafial Jaya
+                                Mandiri</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">PT. Amilis Propertindo</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">PT. Irgi Karya Amanah</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/mou/mou.html#mou">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-sm-12 mt-5">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <h5 class="nav-link mb-3" style="color: white !important;">Kontak</h5>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link active" aria-current="page"
+                                href="/kontak/kontak.html#sosmed">Instagram</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Facebook</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Twitter</a>
+                        </li>
+                        <li class="nav-item footer-link-hover">
+                            <a class="nav-link" href="/kontak/kontak.html#sosmed">Selengkapnya</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+                <div class="gmail">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/gmail-black.png" height="25">
+                    </div>
+                </div>
+                <div class="whatsapp ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/whatsapp-black.png" height="25">
+                    </div>
+                </div>
+                <div class="facebook ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/facebook-black.png" height="25">
+                    </div>
+                </div>
+                <div class="instagram ms-1">
+                    <div class="wrap-sosmed">
+                        <img src="/aset/instagram-black.png" height="25">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center "
+            style="height: 60px; border-top: 2px solid #53589D;">
+            <div style="color: #53589D;">PT. Akademi Developer Indonesia ( ADI Realty )</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
